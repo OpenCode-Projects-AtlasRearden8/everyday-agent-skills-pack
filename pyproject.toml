@@ -1,0 +1,9 @@
+# Everyday Agent Skills Pack - project configuration.
+#
+# This repo intentionally has no runtime dependencies beyond the Python
+# standard library. Pytest is the only dev dependency (see requirements-dev.txt).
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["tools"]
+addopts = "-q"

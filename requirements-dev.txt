@@ -1,0 +1,4 @@
+# Dev-only requirements for the Everyday Agent Skills Pack.
+# Every skill script also runs on the Python standard library alone.
+
+pytest>=7.0
