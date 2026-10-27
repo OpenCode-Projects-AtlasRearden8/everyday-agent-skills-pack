@@ -1,8 +1,13 @@
-__pycache__/
 *.py[cod]
+*.pyc
+.DS_Store
+.env
+.env.*
 .pytest_cache/
 .venv/
-venv/
+__pycache__/
 build/
 dist/
-.DS_Store
+dist/*.tmp
+node_modules/
+venv/
